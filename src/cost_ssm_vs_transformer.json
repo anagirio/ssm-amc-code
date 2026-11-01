@@ -1,0 +1,112 @@
+[
+  {
+    "model": "SSM",
+    "tokens": 32,
+    "params_M": 0.571192,
+    "thop_GMACs": 0.022600704,
+    "matmul_GFLOPs": 0.045037568,
+    "elementwise_GFLOPs": 0.017508353,
+    "total_GFLOPs": 0.062545921,
+    "latency_cpu_ms": 26.406771037727594,
+    "latency_mps_ms": 11.084583471529186
+  },
+  {
+    "model": "Transformer",
+    "tokens": 32,
+    "params_M": 0.589112,
+    "thop_GMACs": 0.015707136,
+    "matmul_GFLOPs": 0.049993728,
+    "elementwise_GFLOPs": 0.000493569,
+    "total_GFLOPs": 0.050487297,
+    "latency_cpu_ms": 1.6242085257545114,
+    "latency_mps_ms": 2.930145477876067
+  },
+  {
+    "model": "SSM",
+    "tokens": 64,
+    "params_M": 0.555768,
+    "thop_GMACs": 0.038263808,
+    "matmul_GFLOPs": 0.076199936,
+    "elementwise_GFLOPs": 0.034789377,
+    "total_GFLOPs": 0.110989313,
+    "latency_cpu_ms": 35.774833522737026,
+    "latency_mps_ms": 19.470436964184046
+  },
+  {
+    "model": "Transformer",
+    "tokens": 64,
+    "params_M": 0.577784,
+    "thop_GMACs": 0.02448896,
+    "matmul_GFLOPs": 0.090331136,
+    "elementwise_GFLOPs": 0.000858113,
+    "total_GFLOPs": 0.091189249,
+    "latency_cpu_ms": 1.5879374695941806,
+    "latency_mps_ms": 2.9578329995274544
+  },
+  {
+    "model": "SSM",
+    "tokens": 128,
+    "params_M": 0.55092,
+    "thop_GMACs": 0.071187456,
+    "matmul_GFLOPs": 0.141719552,
+    "elementwise_GFLOPs": 0.069357569,
+    "total_GFLOPs": 0.211077121,
+    "latency_cpu_ms": 54.663770366460085,
+    "latency_mps_ms": 35.45195795595646
+  },
+  {
+    "model": "Transformer",
+    "tokens": 128,
+    "params_M": 0.581128,
+    "thop_GMACs": 0.043650048,
+    "matmul_GFLOPs": 0.186783744,
+    "elementwise_GFLOPs": 0.001691649,
+    "total_GFLOPs": 0.188475393,
+    "latency_cpu_ms": 1.687646028585732,
+    "latency_mps_ms": 2.6431455044075847
+  },
+  {
+    "model": "SSM",
+    "tokens": 256,
+    "params_M": 0.546072,
+    "thop_GMACs": 0.137034752,
+    "matmul_GFLOPs": 0.272758784,
+    "elementwise_GFLOPs": 0.138493953,
+    "total_GFLOPs": 0.411252737,
+    "latency_cpu_ms": 92.89397904649377,
+    "latency_mps_ms": 67.76108348276466
+  },
+  {
+    "model": "Transformer",
+    "tokens": 256,
+    "params_M": 0.592664,
+    "thop_GMACs": 0.081972224,
+    "matmul_GFLOPs": 0.430020608,
+    "elementwise_GFLOPs": 0.003751937,
+    "total_GFLOPs": 0.433772545,
+    "latency_cpu_ms": 2.37347895745188,
+    "latency_mps_ms": 2.2069578990340233
+  },
+  {
+    "model": "SSM",
+    "tokens": 512,
+    "params_M": 0.521864,
+    "thop_GMACs": 0.248904704,
+    "matmul_GFLOPs": 0.495187968,
+    "elementwise_GFLOPs": 0.276766721,
+    "total_GFLOPs": 0.771954689,
+    "latency_cpu_ms": 166.9155415147543,
+    "latency_mps_ms": 134.47429158259183
+  },
+  {
+    "model": "Transformer",
+    "tokens": 512,
+    "params_M": 0.601224,
+    "thop_GMACs": 0.138791936,
+    "matmul_GFLOPs": 1.078171648,
+    "elementwise_GFLOPs": 0.009445377,
+    "total_GFLOPs": 1.087617025,
+    "latency_cpu_ms": 5.329728941433132,
+    "latency_mps_ms": 2.2345834877341986
+  }
+]
