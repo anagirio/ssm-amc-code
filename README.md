@@ -131,7 +131,7 @@ corrected class list `classes-fixed.json` (included in `src/`; the class order s
 the dataset is known to be wrong). Put the HDF5 file next to `mamba_variants.py`.
 
 ```
-pip install torch h5py numpy matplotlib thop
+pip install torch h5py numpy scipy matplotlib thop
 ```
 
 Train the base model and the ablation (light protocol used in the paper):
